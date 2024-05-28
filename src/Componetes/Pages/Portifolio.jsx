@@ -31,7 +31,7 @@ function Portifolio() {
         ))}
       </div>
         
-      <div id="cardDetalhes" style={{ display: idCard !== null ? "block" : "none" }}> {/* se id for igual Null então ira aplicar o estilo do display none */}
+      <div id="cardDetalhes" style={{ transform: idCard !== null ? "translateY(0)" : "translateY(100%)", opacity: idCard !== null ? "1" : "0"}}> {/* se id for igual Null então ira aplicar o estilo do display none */}
         {idCard !== null && (
           <>
             <h1>{dados[idCard].titulo}</h1>

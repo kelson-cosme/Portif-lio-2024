@@ -2,6 +2,7 @@
     width: 80%;
     margin: auto;
     position: relative;
+    overflow: hidden;
 }
 .projetos{
     display: flex;
@@ -28,6 +29,6 @@
     height: 100%;
     top: 0px;
     background-color: rebeccapurple;
-    display: none;
 
+    transition: .5s;
 }
