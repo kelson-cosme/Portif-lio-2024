@@ -1,0 +1,33 @@
+.portifolio{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.projetos div{
+    margin: 10px;
+    width: 31%;
+    height: 24em;
+    background-color: #343235;
+
+    border-radius: 8px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
+#cardDetalhes{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background-color: rebeccapurple;
+    display: none;
+
+}

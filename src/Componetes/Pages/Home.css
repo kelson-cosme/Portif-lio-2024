@@ -1,0 +1,48 @@
+.sobre{
+    /* background-color: blue; */
+    width: 80%;
+    margin: auto;
+
+    text-align: center;
+}
+
+.experiencia{
+    padding: 20px 0;
+}
+.cardExperiencia{
+    background-color: #F8F8F8;
+
+    text-align: start;
+
+    padding: 30px;
+    border-radius: 10px;
+    margin: 23px 0;
+
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+
+}
+.cardExperiencia h4{
+    padding: 20px 0;
+}
+.cardExperiencia p{
+    padding: 20px 0;
+}
+
+.cardEducacao{
+    background-color: #F8F8F8;
+
+    text-align: start;
+
+    padding: 30px;
+    border-radius: 10px;
+    margin: 23px 0;
+
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+
+}
+.cardEducacao h4{
+    padding: 20px 0;
+}
+.cardEducacao p{
+    padding: 20px 0;
+}

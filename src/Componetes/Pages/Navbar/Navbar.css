@@ -1,0 +1,74 @@
+header{
+    width: 80%;
+    margin: auto;
+    /* background-color: #353535; */
+
+}
+.fotoPerfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.fotoPerfil h1{
+    font-size: 32px;
+}
+.fotoPerfil p{
+    font-weight: 200;
+    font-size: 20px;
+}
+.rosto{
+    width: 10em;
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.2));
+
+}
+
+.rosto img{
+    width: 100%;
+}
+.redesSociais{
+    display: flex;
+    list-style-type: none;
+
+    margin: 17px ;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    width: calc(24em + 80px);
+    background-color: #EEEEEE;
+
+    border-radius: 10px;
+
+    margin-bottom: 23px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+.navegacao a{
+    transition: .2s;
+
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+.navegacao li{
+    width: 6em;
+    padding: 10px;
+
+    transition: .2s;
+}
+.navegacao li:hover{
+    background-color: #353535;
+    border-radius: 10px;
+    color: #ffff;
+}
+
+
+
