@@ -1,0 +1,35 @@
+.contato{
+    width: 80%;
+    margin: auto;
+}
+.infoContato{
+    width: calc(24em + 80px);
+    margin: auto;
+
+    list-style-type: none;
+}
+.infoContato li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+
+    padding: 20px 0;
+    margin: 10px 0;
+    border-radius: 50px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    transition: .2s;
+
+    cursor: pointer;
+}
+
+.infoContato li:hover{
+    transform: scale(1.06);
+}
+.infoContato a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 300;
+}

@@ -3,32 +3,166 @@
     margin: auto;
     position: relative;
     overflow: hidden;
+
 }
 .projetos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
-.projetos div{
+.projetosPai{
     margin: 10px;
     width: 31%;
     height: 24em;
-    background-color: #343235;
+
+
+    position: relative;
 
     border-radius: 8px;
 
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.644);
+
+    transition: 0.2s;
+    cursor: pointer;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: #ffff;
+}
+.projetosPai div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projetosPai:hover{
+    transform: scale(1.04);
+    background-position: center;
 
 }
-
+.projetosTitulo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    height: 4em;
+    bottom: 0;
+}
 
 #cardDetalhes{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: calc(80% - 40px);
+    height: calc(80% - 40px);
     top: 0px;
-    background-color: rebeccapurple;
+    background-color: #EDEDED;
 
     transition: .5s;
+
+    z-index: 99999;
+
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 10%;
+
+    display: flex;
+}
+
+.dadosProjetos{
+    padding: 0 25px;
+}
+.dadosProjetos p{
+    padding: 8px 0;
+}
+.dadosProjetos ul{
+    padding: 8px 0;
+
+}
+
+.imgCard{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url("../../assets/alpha.png") */
+}
+.imgCard iframe{
+    width: 100%;
+    height: 100%;
+}
+.imgCard img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.foraPagina{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.funcionabilidade{
+    margin-left: 20px;
+    
+}
+.tecnologia{
+    list-style-type: none;
+    display: flex;
+
+    
+
+}
+.tecnologia li{
+    margin-right: 10px;
+    background-color: #D9D9D9;
+    padding: 10px;
+    text-align: center;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.644);
+}
+.links{
+    display: inline-block;
+    padding: 10px;
+    background-color: #D9D9D9;
+    margin: 10px 0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.644);
+    cursor: pointer;
+
+    transition: .2s;
+}
+.links:hover{
+    transform: scale(1.04);
+
+}
+.links a{
+    color: #000000;
+    text-decoration: none;
+
+}
+.botao{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.644);
+
+}
+
+@media screen and (max-width: 767px) {
+    .projetosPai{
+        width: 100%;
+    }
+    #cardDetalhes{
+        flex-direction: column;
+        margin: auto;
+        width: 100%;height: 40%;
+    }
+    .imgCard{
+        width: 100%;
+        height: 50vw;
+    }
 }

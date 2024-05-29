@@ -34,6 +34,14 @@ header{
     margin: 17px ;
 }
 
+.redesSociais li{
+    width: 3em;
+    margin: 0 5px ;
+}
+.redesSociais img{
+    width: 100%;
+}
+
 .navegacao{
     display: flex;
     align-items: center;

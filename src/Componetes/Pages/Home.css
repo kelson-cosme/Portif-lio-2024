@@ -5,9 +5,16 @@
 
     text-align: center;
 }
-
+.nome h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
 .experiencia{
     padding: 20px 0;
+}
+.experiencia h1{
+    font-size: 29px;
+    font-weight: 500;
 }
 .cardExperiencia{
     background-color: #F8F8F8;
@@ -21,13 +28,20 @@
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 
 }
+.cardExperiencia h3{
+    font-size: 20px;
+    font-weight: 600;
+}
 .cardExperiencia h4{
     padding: 20px 0;
 }
 .cardExperiencia p{
     padding: 20px 0;
 }
-
+.Educacao h1{
+    font-size: 29px;
+    font-weight: 500;
+}
 .cardEducacao{
     background-color: #F8F8F8;
 

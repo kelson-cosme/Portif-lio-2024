@@ -3,6 +3,10 @@ import { Link } from "react-router-dom"
 import Foto from "../../../assets/foto.png"
 import "../Navbar/Navbar.css"
 
+import whatsapp from "../../../assets/whatsapp.png"
+import instagram from "../../../assets/instagram.png"
+
+
 function Navbar() {
 
     return (
@@ -16,10 +20,8 @@ function Navbar() {
                 <p>Desenvolvedor Front-end</p>
 
                 <ul className="redesSociais">
-                    <li>facebook</li>
-                    <li>facebook</li>
-                    <li>facebook</li>
-                    <li>facebook</li>
+                    <li><Link target="_blank" to={"https://wa.me/5565996646289"}> <img src={whatsapp} alt="" /> </Link> </li>
+                    <li><Link target="_blank" to={"https://instagram.com/kelson.almeida"}><img src={instagram} alt="" /></Link></li>
                 </ul>
             </div>
 
