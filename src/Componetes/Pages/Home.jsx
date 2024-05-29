@@ -3,11 +3,9 @@ import "./Home.css"
 function Home() {
 
     return (
-      <section className="sobre">,
-      
+      <section className="sobre">
         <div className="nome">
-            <h3>Sou estudante apaixonado por tecnologia e design. Desde que comecei a explorar o mundo do desenvolvimento web, me dediquei a aprender e aplicar os princípios fundamentais da criação de interfaces de usuário dinâmicas e responsivas. Embora ainda não tenha experiência formal na indústria, tenho investido meu tempo em projetos pessoais e cursos online para aprimorar minhas habilidades.
-            </h3>
+            <h3>Sou estudante apaixonado por tecnologia e design. Desde que comecei a explorar o mundo do desenvolvimento web, me dediquei a aprender e aplicar os princípios fundamentais da criação de interfaces de usuário dinâmicas e responsivas. Embora ainda não tenha experiência formal na indústria, tenho investido meu tempo em projetos pessoais e cursos online para aprimorar minhas habilidades.</h3>
         </div>
 
         <div className="experiencia">

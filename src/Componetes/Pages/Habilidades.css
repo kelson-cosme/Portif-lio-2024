@@ -40,3 +40,8 @@
 .tecHabilidades img{
     width: 100%;
 }
+@media screen and (max-width: 767px) {
+    .tecHabilidades li{
+        width: 20%;
+    } 
+}
