@@ -49,11 +49,11 @@ function Portifolio() {
         
 
         
-      <div id="cardDetalhes" style={{ transform: idCard !== null ? "translateY(0)" : "translateY(100%)", opacity: idCard !== null ? "1" : "0"}}> {/* se id for igual Null então ira aplicar o estilo do display none */}
+      <div id="cardDetalhes" style={{ transform: idCard !== null ? "translateY(0)" : "translateY(100%)", opacity: idCard !== null ? "1" : "0", zIndex: idCard !== null ? "9999" : "0"}}> {/* se id for igual Null então ira aplicar o estilo do display none */}
         {idCard !== null && (
           <>
             <div className="imgCard">
-            
+              <img src={dados[idCard].imagem} alt="" />
               <iframe src={dados[idCard].site} frameborder="0"></iframe>
             </div>
 
