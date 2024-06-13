@@ -42,4 +42,9 @@
    .infoContato a{
     font-size: 0.6em;
    }
+ 
+   #corpo{
+    overflow: hidden;
+
+}
 }
