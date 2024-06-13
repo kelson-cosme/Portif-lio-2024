@@ -60,3 +60,11 @@
 .cardEducacao p{
     padding: 20px 0;
 }
+@media screen and (max-width: 767px) {
+    .sobre{
+        width: 100%;
+    }
+    .nome{
+        text-align: justify;
+    }
+}
