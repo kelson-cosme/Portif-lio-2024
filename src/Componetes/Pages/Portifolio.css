@@ -30,16 +30,19 @@
 
     color: #ffff;
 }
-.projetosPai div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .projetosPai:hover{
     transform: scale(1.04);
     background-position: center;
 
 }
+.projetosPai div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 .projetosTitulo{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.808);

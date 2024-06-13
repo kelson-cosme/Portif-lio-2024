@@ -1,5 +1,8 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 import "./Portifolio.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import Alpha from "../../assets/alpha.png"
@@ -9,6 +12,12 @@ import sistemaNotas from "../../assets/sistemaNotas.png"
 
 
 function Portifolio() {
+
+  useEffect( () => {
+    AOS.init();
+}, [])
+
+
   const dados = [
     { id: 0, titulo: "Alpha AK", imagem: Alpha, descricao: "Ladding page", funcionabilidade: ["Site Responsivo", "Menu mobile"] , tecologia: ["React Js", "Vite"], site: "https://alpha-ak.vercel.app"},
     { id: 1, titulo: "Capivara-TV", imagem: Capivara, descricao: "Site para assistir seu filmes", funcionabilidade: ["Uso da API TMDB para pegar os dados dos filmes", "Uso da API SuperFlix para ter acesso aos filmes (uso de apenas para estudo)"] ,tecologia: ["React Js", "Vite", "Swiper"], site: "https://capivara-tv.netlify.app"},
@@ -28,18 +37,16 @@ function Portifolio() {
     const clickId = event.target.id; // pegar o id do card
     if (clickId !== undefined) {
       setIdCard(clickId);
-
-      dados[clickId].funcionabilidade.map((teste) => (
-          console.log(teste)
-      ))
     }
   }
 
   return (
+
+    
     <section className="portifolio">
-      <div className="projetos">
+      <div  className="projetos">
         {dados.map((projetos) => (
-          <div className="projetosPai" key={projetos.id} id={projetos.id} onClick={cliclou}  style={{backgroundImage: `url("${projetos.imagem}")`}}>
+          <div className="projetosPai" data-aos="zoom-in-down" data-aos-duration="1500"  key={projetos.id} id={projetos.id} onClick={cliclou}  style={{backgroundImage: `url("${projetos.imagem}")`}}>
 
             <div id={projetos.id} className="projetosTitulo"> {projetos.titulo}</div>
 
@@ -63,16 +70,16 @@ function Portifolio() {
 
               <h1>Funcionabilidade</h1>
               <ul className="funcionabilidade">
-                {dados[idCard].funcionabilidade.map ((func) => (
-                    <li >{func}</li>  
+                {dados[idCard].funcionabilidade.map ((func, index) => (
+                    <li key={index}>{func}</li>  
                 ))}
               </ul>
 
 
               <h1>Tecnologias</h1>
               <ul className="tecnologia">
-              {dados[idCard].tecologia.map ((tec) => (
-                    <li >{tec}</li>  
+              {dados[idCard].tecologia.map ((tec, index) => (
+                    <li key={index}>{tec}</li>  
                 ))}
               </ul>
 
