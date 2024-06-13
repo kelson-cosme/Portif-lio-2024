@@ -62,7 +62,9 @@
 }
 @media screen and (max-width: 767px) {
     .sobre{
-        width: 100%;
+        width: calc(100% - 20px);
+        margin: 10px;
+        
     }
     .nome{
         text-align: justify;
