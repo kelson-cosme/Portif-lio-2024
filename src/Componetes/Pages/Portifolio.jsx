@@ -5,9 +5,9 @@ import "./Portifolio.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import Alpha from "../../assets/alpha.png"
-import CodNFT from "../../assets/codnft.png"
-import Capivara from "../../assets/capivara.png"
+import Alpha from "../../assets/alpha.jpg"
+import CodNFT from "../../assets/codnft.jpg"
+import Capivara from "../../assets/capivara.jpg"
 import sistemaNotas from "../../assets/sistemaNotas.png"
 
 
