@@ -5,12 +5,10 @@ import "./Portifolio.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import Alpha from "../../assets/alpha.jpg"
-import CodNFT from "../../assets/codnft.jpg"
 import Capivara from "../../assets/capivara.jpg"
 import sistemaNotas from "../../assets/sistemaNotas.png"
 import gerenciadorPosts from "../../assets/nosso-blog.png"
-import webfusion from "../../assets/webfusion.png"
+import Economika from "../../assets/home.png"
 
 
 function Portifolio() {
@@ -21,12 +19,10 @@ function Portifolio() {
 
 
   const dados = [
-    { id: 0, titulo: "Alpha AK", imagem: Alpha, descricao: "Ladding page", funcionabilidade: ["Site Responsivo", "Menu mobile"] , tecologia: ["React Js", "Vite"], site: "https://alpha-ak.vercel.app"},
-    { id: 1, titulo: "Capivara-TV", imagem: Capivara, descricao: "Site para assistir seu filmes", funcionabilidade: ["Uso da API TMDB para pegar os dados dos filmes", "Uso da API SuperFlix para ter acesso aos filmes (uso de apenas para estudo)"] ,tecologia: ["React Js", "Vite", "Swiper"], site: "https://capivara-tv.vercel.app"},
-    { id: 2, titulo: "CodeNFT", imagem: CodNFT, descricao: "Ladding page" , funcionabilidade: ["Site Responsivo"] ,tecologia: ["React Js", "Vite"], site: "https://codnft.vercel.app"},
-    { id: 3, titulo: "Sistema de Notas", imagem: sistemaNotas, descricao: "Sistema onde armazena 4 notas de alunos" , funcionabilidade: ["Criar novo cadastro de alunos", "Editar", "Excluir"] ,tecologia: ["React Js", "Firebase", "React Roter Dom"], site: "https://sistema-notas.netlify.app"},
-    { id: 4, titulo: "Gerenciador de Posts", imagem: gerenciadorPosts, descricao: "Painel Administrativo construído com ReactJs e Firebase. Ele permite que um administrador gerencie posts, incluindo a criação, edição e exclusão de posts." , funcionabilidade: ["Autenticação de Usuário", "Visualizar, Criar, Editar e Excluir Posts", "Atualizações em Tempo Real"] ,tecologia: ["React Js", "Firebase", "Css"], site: "https://blog2-0-chi.vercel.app/"},
-    { id: 5, titulo: "Web Fusion", imagem: webfusion, descricao: "Ladding page", funcionabilidade: ["Site Responsivo"] ,tecologia: ["React Js", "Vite"], site: "https://www.webfusionstudio.com.br/"},
+    { id: 0, titulo: "Capivara-TV", imagem: Capivara, descricao: "Site para assistir seu filmes", funcionabilidade: ["Uso da API TMDB para pegar os dados dos filmes", "Uso da API SuperFlix para ter acesso aos filmes (uso de apenas para estudo)"] ,tecologia: ["React Js", "Vite", "Swiper"], site: "https://capivara-tv.vercel.app"},
+    { id: 1, titulo: "Sistema de Notas", imagem: sistemaNotas, descricao: "Sistema onde armazena 4 notas de alunos" , funcionabilidade: ["Criar novo cadastro de alunos", "Editar", "Excluir"] ,tecologia: ["React Js", "Firebase", "React Roter Dom"], site: "https://sistema-notas.netlify.app"},
+    { id: 2, titulo: "Gerenciador de Posts", imagem: gerenciadorPosts, descricao: "Painel Administrativo construído com ReactJs e Firebase. Ele permite que um administrador gerencie posts, incluindo a criação, edição e exclusão de posts." , funcionabilidade: ["Autenticação de Usuário", "Visualizar, Criar, Editar e Excluir Posts", "Atualizações em Tempo Real"] ,tecologia: ["React Js", "Firebase", "Css"], site: "https://blog2-0-chi.vercel.app/"},
+    { id: 3, titulo: "Mini loja Virtual", imagem: Economika, descricao: "Mini Loja virtual de produtos de alimentos" , funcionabilidade: ["Autenticação de Usuário", "Criar novos usuários", "Adicionar e remover do carrinho"] ,tecologia: ["React Js", "Firebase", "Vite"], site: "https://economika.vercel.app/"},
 
 
  
