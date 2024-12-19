@@ -20,7 +20,7 @@ const Section = ({ section, setActiveSection, timeOfLastClick }) => {
         text-center
       "
     >
-      <h1 className="m-20 text-5xl font-bold mb-6">{heading}</h1>
+      <h1 className="mt-20 text-5xl font-bold mb-6">{heading}</h1>
       <p className="text-lg font-medium ">{sobre}</p>
     </section>
   );
