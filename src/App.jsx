@@ -1,4 +1,4 @@
-import Rotas from "./Componetes/Rotas/Rotas"
+import Rotas from "./Componentes/Rotas/Rotas"
 import './App.css'
 
 function App() {

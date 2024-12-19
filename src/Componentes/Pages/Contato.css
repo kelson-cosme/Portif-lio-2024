@@ -1,6 +1,7 @@
 .contato{
     width: 80%;
     margin: auto;
+    overflow: hidden;
 }
 .infoContato{
     width: calc(24em + 80px);

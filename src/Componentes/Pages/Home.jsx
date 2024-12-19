@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 import React, {useEffect} from "react";
 
+
 function Home() {
 
     useEffect( () => {
@@ -12,6 +13,7 @@ function Home() {
 
     return (
       <section className="sobre">
+
         <div data-aos="fade-down"data-aos-anchor-placement="center-bottom"  data-aos-duration="1000" className="nome">
             <h3>Sou estudante apaixonado por tecnologia e design. Desde que comecei a explorar o mundo do desenvolvimento web, me dediquei a aprender e aplicar os princípios fundamentais da criação de interfaces de usuário dinâmicas e responsivas. Embora ainda não tenha experiência formal na indústria, tenho investido meu tempo em projetos pessoais e cursos online para aprimorar minhas habilidades.</h3>
         </div>
@@ -56,6 +58,8 @@ function Home() {
                 <p><li>UNIC - Universidade de Cuiabá</li></p>
             </div>
         </div>
+
+
       </section>
     )
   }

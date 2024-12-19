@@ -61,7 +61,8 @@
     transition: .5s;
 
     z-index: 99;
-
+    color: #000000;
+    text-align: left;
     border-radius: 8px;
     padding: 20px;
     margin: 0 10%;
@@ -181,13 +182,16 @@
         overflow-y: scroll;
         margin: 0;
         padding: 0;
+
+        z-index: 999;
     }
     .dadosProjetos{
         width: 90%;
         margin: auto;
         padding: 0;
     }
-    iframe{
+    
+    .imgCard iframe{
         display: none;
     }
     .imgCard img{

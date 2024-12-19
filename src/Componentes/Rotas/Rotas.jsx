@@ -15,7 +15,7 @@ function Rotas() {
           <Navbar/>
 
             <Routes>
-                <Route path="/" element={<Home/>} />
+                {/* <Route path="/" element={<Home/>} /> */}
                 <Route path="/portifolio" element={<Portifolio/>} />
                 <Route path="/habilidades" element={<Habilidades/>} />
                 <Route path="/contato" element={<Contato/>} />
